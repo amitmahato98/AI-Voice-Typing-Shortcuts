@@ -3,141 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic-Tac-Toe</title>
+    <title>random-name-generator</title>
     <style>
-        /* CSS styles remain unchanged */
-        *{ 
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            font-size: 1.5rem;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style: none;
+            box-sizing: border-box;
+            color: white;
+        }
+        body{
+            background-color: rgb(113, 104, 122);
         }
         h1{
-            font-size: 2rem;
-            margin: 2rem 0 1.5rem 0;
+
             text-align: center;
-            color: orangered;
-            text-decoration: underline;
         }
         .container{
-            display: grid;
-            grid-template-columns: repeat(3,100px);
-            place-content: center;
-            top: 5rem;
-        }
-        input{
-            font-size: 3.5rem;
-            text-align: center;
-            height: 100px;
-            width: 100px;
-            border: 2px solid black;
-        }
-        #reset{
-            display: block;
-            background-color: orangered;
-            width: 150px;
-            margin: 1rem 0 0 75px;
             /* margin: auto; */
-            color: white;
-            
+            margin: 1rem;
+            padding: 1rem;
+        }
+        .name ul{
+            display: flex;
+            justify-content: right;
+            align-items: center;
             
         }
-        #reset:hover{
-            background-color: transparent;
-            color: orangered;
-
+        .name ol{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            
+        }
+        li{
+           margin-left: 1rem;
+           flex-wrap: wrap;
+        }
+        h6{
+            background-color: red;
+            font-size: 0.5rem;
+        }
+        h1::before:hover{
+            content: '"trying to make jotko kura"';
+            text-transform: lowercase;
+            background-color: rgb(154, 148, 160);
+            font-size: 3rem;
+            height: 20vh;
+            padding-top: 4vh;
         }
     </style>
 </head>
 <body>
-<h1>Tic-Tac-Toe</h1>
-<div class="container">
-    <input type="button" id="div1" onclick="clickfun(this)">
-    <input type="button" id="div2" onclick="clickfun(this)">
-    <input type="button" id="div3" onclick="clickfun(this)">
-    <input type="button" id="div4" onclick="clickfun(this)">
-    <input type="button" id="div5" onclick="clickfun(this)">
-    <input type="button" id="div6" onclick="clickfun(this)">
-    <input type="button" id="div7" onclick="clickfun(this)">
-    <input type="button" id="div8" onclick="clickfun(this)">
-    <input type="button" id="div9" onclick="clickfun(this)">
-    <button type="button"  id="reset" onclick="reset()"> Reset</button>
-</div>
-
-<script>
-    var player = 1;
-    var winner;
-    
-   
-    function clickfun(e){
-        // if (e.disabled || winner) {
-        //     return; // If the button is disabled or a winner is already found, do nothing
-        // }
+        <h1>WELCOME</h1>
+    <div class="container">
+        <h2 class="name"><ul><li>Amit</li>
+        <li>Sushant</li>
+        <li>Jivan</li>
+        <li>Mandip</li></ul></h2>
+        <br><br><br>
+        <h2 class="name"><ol><li>Swechchha</li>
+        <li>Sabjiwali</li>
+        <li>dudhwali</li>
+        <li>bibhuti</li></ol></h2>
         
-        e.disabled = true; 
 
-        if(player % 2 != 0){
-            e.value = "x";
-        } else {
-            e.value = "o";
+        <h6>Click here to see the relation sheep</h6>
+    </div>
+    <button type="button" onclick="jotko()">click here</button>
+
+
+
+
+    <script>
+        function jotko(){
+            document.write('')
         }
-
-        winner = check(); 
-        if(winner){
-           
-            setTimeout(function() {
-                alert('Player ' + winner + ' is the winner of the game');
-                location.reload();
-            }, 100);
+        let first,second;
+        let random = Math.random();
+        if(random < 0.25){
+            first = 'sabjiwali';
+        }else if(random < 0.50 && random >= 0.25){
+            first = 'dudhwali';
+        }else if(random < 0.75 && random >= 0.50){
+            first = 'bibhuti';
+        }else{
+            first = 'Swechchha';
         }
         
-        player++;
-    }
+        
+        
+         random = Math.random();
+        if(random < 0.25){
+            second = 'Sushant';
+        }else if(random < 0.50 && random >= 0.25){
+            second = 'jivan';
+        }else if(random < 0.75 && random >= 0.50){
+            second = 'Mandip';
+        }else{
+            second = 'Amit';
+        }
 
-    function check(){
-        var d1 = document.getElementById('div1').value;
-        var d2 = document.getElementById('div2').value;
-        var d3 = document.getElementById('div3').value;
-        var d4 = document.getElementById('div4').value;
-        var d5 = document.getElementById('div5').value;
-        var d6 = document.getElementById('div6').value;
-        var d7 = document.getElementById('div7').value;
-        var d8 = document.getElementById('div8').value;
-        var d9 = document.getElementById('div9').value;
 
-        if(d1 == d2 && d2 ==d3 && d1 != '' && d2 != '' && d3 != ''){
-            return d1;
-        } 
-        else if(d4 == d5 && d5 ==d6 && d4 != '' && d5 != '' && d6 != ''){
-            return d4;
-        }
-        else if(d7 == d8 && d8 ==d9 && d7 != '' && d8 != '' && d9 != ''){
-            return d7;
-        }
-        else if(d1 == d4 && d4 ==d7 && d1 != '' && d4 != '' && d7 != ''){
-            return d1;
-        }
-        else if(d2 == d5 && d5 ==d8 && d2 != '' && d5 != '' && d8 != ''){
-            return d2;
-        }
-        else if(d3 == d6 && d6 ==d9 && d3 != '' && d6 != '' && d9 != ''){
-            return d3;
-        }
-        else if(d1 == d5 && d5 ==d9 && d1 != '' && d5 != '' && d9 != ''){
-            return d1;
-        } 
-        else if(d3 == d5 && d5 ==d7 && d3 != '' && d5 != '' && d7 != ''){
-            return d3;
-        }else {
-            var a = 'The match is draw, Both player played Well';
-            return a;
-        }
-    }
-    
 
-    function reset(){
-        location.reload();
-    }
-</script>    
+        console.log( `${first}`+' + '+` ${second}` )
+         
+        </script>
 </body>
 </html>
