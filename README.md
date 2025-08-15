@@ -74,7 +74,7 @@
 
     #!/bin/bash
 
-    shortcuts run "AI-Voice-Typing v1"
+    shortcuts run "AI-Voice-Typing V1.0"
 
     osascript -e '
     tell application "System Events"
