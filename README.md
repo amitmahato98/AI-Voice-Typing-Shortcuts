@@ -1,7 +1,7 @@
 <div align="center">
   <h1>AI-Voice-Typing</h1>
   <h3><strong>免费、高精度、可完全自定义的开源语音输入法</strong></h3>
-    <a href="https://www.icloud.com/shortcuts/b20f176db2724958b95b3e5aaa1d960c" target="_blank"><img src="https://img.shields.io/badge/下载快捷指令-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="下载快捷指令" width="200"></a>
+    <a href="https://www.icloud.com/shortcuts/b20f176db2724958b95b3e5aaa1d960c" target="_blank"><img src="https://img.shields.io/badge/下载快捷指令-DD6666?style=for-the-badge&logo=apple&logoColor=white" alt="下载快捷指令" width="150"></a>
   
 </div>
 <br>
