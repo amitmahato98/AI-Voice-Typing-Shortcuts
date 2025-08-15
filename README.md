@@ -1,7 +1,7 @@
 <div align="center">
   <h1>AI-Voice-Typing</h1>
   <h3><strong>免费、高精度、可完全自定义的开源语音输入法</strong></h3>
-    <a href="https://www.icloud.com/shortcuts/b20f176db2724958b95b3e5aaa1d960c" target="_blank"><img src="https://img.shields.io/badge/下载快捷指令-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="下载快捷指令"></a>
+    <a href="https://www.icloud.com/shortcuts/b20f176db2724958b95b3e5aaa1d960c" target="_blank"><img src="https://img.shields.io/badge/下载快捷指令-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="下载快捷指令" width="200"></a>
   
 </div>
 <br>
@@ -47,7 +47,7 @@
 
 ### 安装配置
 
-1. [下载安装快捷指令](https://www.icloud.com/shortcuts/a1f77796c30f478dac9023351fe29f7c)
+1. 下载安装快捷指令
 2. 填入 Gemini API Key
 3. 配置自定义词汇和规则
 
